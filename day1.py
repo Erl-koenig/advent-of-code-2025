@@ -2,7 +2,7 @@ from utils import load_input
 
 DIAL_SIZE = 100
 idx = 50
-data = load_input(1)
+data = load_input(1).splitlines()
 part1 = 0
 part2 = 0
 
